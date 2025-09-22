@@ -1,0 +1,39 @@
+Kendaraan
+# saya tambahkan
+	- public abstract void Stop();
+	- public abstract void Break();
+	
+Motor
+# saya tambahkan
+	- public void Start() {System.out.println("Motor " + this.getName() + " berjalan"); }
+
+Mobil
+# tidak ada yang perlu di rubah
+
+
+Pesawat.java
+# saya tambahkan
+	- public void Break() {System.out.println("Pesawat tidak terbang"); }
+
+Tnk.java
+# saya tambahkan
+	- baris 6 (saya tambahkan dari " ShootAb " menjadi " ShootAble ")
+	- baris 13 " ; "
+	- baris 17 " ; "
+	- baris 20 (saya tambahkan dari " vehi " menjadi " vehicle " dan menabahkan " ; ")
+
+
+
+Flyable.java
+# saya tambahkan
+	- void stop();
+	- void Stop();
+    	- void Brake();
+
+# saya hapus 
+	- " private "
+	
+ShooAble.java
+	- void Stop();
+    	- void Brake();
+
